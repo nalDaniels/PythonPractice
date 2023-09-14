@@ -1,4 +1,4 @@
-def removeVowels(string):
+def removeAllVowels(string):
    vowels = ["a", "e", "i", "o", "u", "y"]
    for letter in string:
         if letter.lower() in vowels:
